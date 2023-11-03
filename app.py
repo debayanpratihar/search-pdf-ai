@@ -54,7 +54,7 @@ def process_answer(instruction):
     return answer,generated_text
 
 def main():
-    st.title("Search Your PDF 🐦📄")
+    st.title("Search Your PDF 📄")
     with st.expander("About the App"):
         st.markdown(
             """
